@@ -1,5 +1,63 @@
+<!-- Fuente Bebas Neue -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<!-- Estilos del header -->
+<style>
+.navbar {
+  background: rgba(20, 40, 60, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  padding: 0 20px;
+}
+.navbar a {
+  font-weight: 600;
+  color: #ffffffcc !important;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease;
+}
+.navbar a:hover {
+  color: #91e0ff !important;
+}
+.navbar .brand-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: #e0f7ff;
+  text-shadow: 1px 1px 3px #000;
+}
+</style>
+
+<!-- HEADER -->
+<div class="navbar">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+
+    <nav style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+      
+      <!-- IZQUIERDA: Logo -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+          <img src="assets/img/esp_hispania_logo.png" alt="Logo Hispania" style="height: 50px;">
+          <span class="brand-text">HISPANIA</span>
+        </a>
+      </div>
+
+      <!-- CENTRO: Menú -->
+      <div style="display: flex; gap: 30px;">
+        <a class="nav-link" href="eventos.html">📅 Eventos</a>
+        <a class="nav-link" href="nosotros.html">👥 Nosotros</a>
+      </div>
+
+      <!-- DERECHA: Home -->
+      <div>
+        <a class="nav-link" href="index.html" title="Inicio">🏠</a>
+      </div>
+
+    </nav>
+  </div>
+</div>
+<!--Home-->
 <section style="text-align: center; padding: 60px 20px; background: linear-gradient(#173344, #0f1f2c); color: #e0f7ff;">
-  <img src="/ESPHispania.png" alt="Logo Hispania" style="height: 120px; margin-bottom: 20px;" />
+  <img src="ESPHispania.png" alt="Logo Hispania" style="height: 120px; margin-bottom: 20px;" />
   <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 3rem; text-shadow: 1px 1px 5px #000;">Bienvenido a la Comunidad Hispania</h1>
   <p style="max-width: 600px; margin: auto; font-size: 1.2rem;">Somos una comunidad activa de jugadores de <strong>Whiteout Survival</strong> con espíritu de equipo, estrategia y crecimiento. ¡Únete a nosotros y conquista el hielo!</p>
 </section>
